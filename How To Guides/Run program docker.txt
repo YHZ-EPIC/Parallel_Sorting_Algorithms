@@ -1,0 +1,57 @@
+Commands run inside folder containing dockerfile and c file
+
+sudo docker build -t docker-world-gcc /home/yhz/Desktop/DockerWorld
+sudo docker run -it docker-world-gcc
+
+sudo docker build -t container_name /path
+sudo docker run -it container_name
+
+--------------------------------------------------------------------
+
+run C program as docker container image
+
+-- TO RUN MULTIPLE PROGRAMS IN Seperate Terminals
+
+gnome-terminal --working-directory ../Folder1 -- python3 bot_one.py
+gnome-terminal --working-directory ../Folder2 -- python3 bot_two.py
+
+RUN keyword specifies shell script or command to run
+
+-- multiple commands to run
+
+RUN yum -y update && \
+    yum -y install httpd-tools && \
+    yum clean all
+
+CMD ["./prog1","./prog2"]
+
+----------------------------------------------------------
+
+-- to run normal c program
+
+-- Dockerfile
+
+FROM gcc:latest
+
+COPY . /DockerWorld
+
+WORKDIR DockerWorld
+
+RUN gcc -o DockerWorld dockerworld.c
+
+CMD ["./DockerWorld"]
+
+-- Folder Structure
+
+DockerWorld/
+ -/ dockerfile
+-/ dockerworld.c
+
+then create image or container
+
+docker build -t docker-world-gcc /DockerWorld/
+
+-- run this image
+
+docker run -it docker-world-gcc
+

@@ -1,0 +1,17 @@
+docker run --rm -it -v $(pwd):/project nlknguyen/alpine-mpich
+
+Command to run Alpine Docker Image on current directory containing our project file
+for example mpi.c
+
+after this command you are inside alpine now,
+run mpicc -o main mpi.c
+then mpirun -n 4 ./main
+
+hcc is already installed in alpine image
+check if u are in alpine linux
+
+cat /etc/*-release
+
+check if docker running : systemctl status docker
+
+docker run -i -t 8dbd9e392a96 /bin/bash

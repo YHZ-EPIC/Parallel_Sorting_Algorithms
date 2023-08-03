@@ -1,0 +1,5 @@
+docker-compose up
+
+http://0.0.0.0:8080/ open this in browser
+to execute docker-compose wordpress image
+
