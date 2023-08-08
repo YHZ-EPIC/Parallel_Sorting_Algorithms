@@ -75,19 +75,19 @@ GPU solves all complex mathematical equations in form of matrices.
 
 ### 2D Matrix Multiplication
 
-	1)	MPI
+1)	MPI
 
-		--> At N = 8 , 8 x 8 = 64
-	
+	--> At N = 8 , 8 x 8 = 64
+
 ![Alt text](./Demo/image-4.png)
 
-		--> At Input > 10 it was giving an error , was unable to show calculated time.
+* <b> NOTE : 	--> At Input > 10 it was giving an error , was unable to show calculated time. </b>
 
 ![Alt text](./Demo/image-5.png)
 
-	2)	Serial
+2)	Serial
 
-		--> At N = 800 , NxN = 800 x 800 = 640000  
+	--> At N = 800 , NxN = 800 x 800 = 640000  
 
 ![Alt text](./Demo/image-6.png)
 
