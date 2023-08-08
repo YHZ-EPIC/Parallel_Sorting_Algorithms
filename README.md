@@ -1,6 +1,7 @@
 <font style="color:#fff; font-family: 'Bebas Neue'; 
 font-size: 3.5ch">
-
+ 
+# Course : Parallel and Distributed Computing
 # PDC_Project
 	Running Sorting Algorithms in Parallel using MPI inside Docker Container
 
