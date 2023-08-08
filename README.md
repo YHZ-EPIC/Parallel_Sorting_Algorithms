@@ -2,7 +2,7 @@
 font-size: 3.5ch">
  
 # Course : Parallel and Distributed Computing
-# PDC_Project
+# PDC Project
 	Running Sorting Algorithms in Parallel using MPI inside Docker Container
 
 By Yasir Hussain
