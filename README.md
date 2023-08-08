@@ -81,7 +81,11 @@ GPU solves all complex mathematical equations in form of matrices.
 
 ![Alt text](./Demo/image-4.png)
 
+<br>
+
 * <b> NOTE : 	--> At Input > 10 it was giving an error , was unable to show calculated time. </b>
+
+<br>
 
 ![Alt text](./Demo/image-5.png)
 
