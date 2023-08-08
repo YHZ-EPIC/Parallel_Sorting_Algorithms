@@ -1,9 +1,11 @@
+<font style="color:#fff; font-family: 'Bebas Neue'; 
+font-size: 3.5ch">
+
 # PDC_Project
- Running Sorting Algorithms in Parallel using MPI inside Docker Container
+Running Sorting Algorithms in Parallel using MPI inside Docker Container
 
 Objective:
 This project demonstrates the difference between a sequential and parallel execution of a program and How much it makes a difference. We have compared both MPI and Serial implementation of the following three algorithms: Merge Sort, Bubble Sort, and NxN Matrix Multiplication.
-
 
 Introduction:
 In this project we executed MPI program in Docker environment. Docker allows us to to deploy, distribute applications with all its dependencies independent of local hardware. We can pull images of such containers from Docker Hub website.
@@ -74,3 +76,5 @@ Conclusion:
 Sometimes sequential algorithm performs better because of small input data set. In such case using MPI causes overhead and loses its purpose. In situations where MPI is ideal to use then sequential algorithms don’t even come close to the performance of MPI.
 
 Thank You 
+
+</font>
