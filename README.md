@@ -51,41 +51,43 @@ GPU solves all complex mathematical equations in form of matrices.
 
 	1)	MPI
 
-	--> At Input Size = 100000
+		--> At Input Size = 100000
 
-![Alt text](./Demo/image-1.png)
+	![Alt text](./Demo/image-1.png)
 
-2)	Serial
+	2)	Serial
 
-	--> At Input Size = 100000
+		--> At Input Size = 100000
 
-![Alt text](./Demo/image-2.png)
+	![Alt text](./Demo/image-2.png)
 
-### Bubble Sort
+* ### Bubble Sort
 
-1)	MPI
-	--> At Input Size = 100000
+	1)	MPI
 
-![Alt text](./Demo/image-3.png)
+		--> At Input Size = 100000
 
-2)	Serial
-	--> At Input Size = 100000
+	![Alt text](./Demo/image-3.png)
+
+	2)	Serial
+
+		--> At Input Size = 100000
 
 ### 2D Matrix Multiplication
 
-1)	MPI
+	1)	MPI
 
-	--> At N = 8 , 8 x 8 = 64
-
+		--> At N = 8 , 8 x 8 = 64
+	
 ![Alt text](./Demo/image-4.png)
 
-	--> At Input > 10 it was giving an error , was unable to show calculated time.
+		--> At Input > 10 it was giving an error , was unable to show calculated time.
 
 ![Alt text](./Demo/image-5.png)
 
-2)	Serial
+	2)	Serial
 
-	--> At N = 800 , NxN = 800 x 800 = 640000  
+		--> At N = 800 , NxN = 800 x 800 = 640000  
 
 ![Alt text](./Demo/image-6.png)
 
