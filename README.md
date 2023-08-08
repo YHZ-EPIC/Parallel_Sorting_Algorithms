@@ -49,7 +49,7 @@ GPU solves all complex mathematical equations in form of matrices.
 
 * ### Merge Sort
 
-1)	MPI
+	1)	MPI
 
 	--> At Input Size = 100000
 
