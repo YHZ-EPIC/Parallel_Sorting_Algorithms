@@ -8,8 +8,11 @@ By Yasir Hussain
 
 ## Objective
 
-	This project demonstrates the difference between a sequential and parallel execution of a program and How much it makes a difference. We have compared both MPI and Serial implementation of the following three algorithms: Merge Sort, Bubble Sort, and NxN Matrix Multiplication.
-
+	This project demonstrates the difference between a sequential and parallel execution of a program 
+	and How much it makes a difference. We have compared both MPI and Serial implementation of the following three algorithms: 
+1) Merge Sort <br> 
+2) Bubble Sort <br> 
+3) NxN Matrix Multiplication.
 
 ## Introduction
 
